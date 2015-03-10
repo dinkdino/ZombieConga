@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		314F42B61AAADCE900958B1F /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F42B01AAADCE900958B1F /* background1.png */; };
+		314F42B71AAADCE900958B1F /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F42B11AAADCE900958B1F /* background2.png */; };
+		314F42B81AAADCE900958B1F /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F42B21AAADCE900958B1F /* MainMenu.png */; };
+		314F42B91AAADCE900958B1F /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F42B31AAADCE900958B1F /* YouLose.png */; };
+		314F42BA1AAADCE900958B1F /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F42B41AAADCE900958B1F /* YouWin.png */; };
+		314F42BB1AAADCE900958B1F /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 314F42B51AAADCE900958B1F /* sprites.atlas */; };
 		31A19EFB1AAA1BDB00EF2B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A19EFA1AAA1BDB00EF2B32 /* AppDelegate.swift */; };
-		31A19EFD1AAA1BDB00EF2B32 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 31A19EFC1AAA1BDB00EF2B32 /* GameScene.sks */; };
 		31A19EFF1AAA1BDB00EF2B32 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A19EFE1AAA1BDB00EF2B32 /* GameScene.swift */; };
 		31A19F011AAA1BDB00EF2B32 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A19F001AAA1BDB00EF2B32 /* GameViewController.swift */; };
 		31A19F041AAA1BDB00EF2B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A19F021AAA1BDB00EF2B32 /* Main.storyboard */; };
 		31A19F061AAA1BDB00EF2B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A19F051AAA1BDB00EF2B32 /* Images.xcassets */; };
 		31A19F091AAA1BDB00EF2B32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31A19F071AAA1BDB00EF2B32 /* LaunchScreen.xib */; };
 		31A19F151AAA1BDB00EF2B32 /* ZombieCongaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A19F141AAA1BDB00EF2B32 /* ZombieCongaTests.swift */; };
+		31D6D6CD1AAF011600B5488E /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D6D6CC1AAF011600B5488E /* MyUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		314F42B01AAADCE900958B1F /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		314F42B11AAADCE900958B1F /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		314F42B21AAADCE900958B1F /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		314F42B31AAADCE900958B1F /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
+		314F42B41AAADCE900958B1F /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
+		314F42B51AAADCE900958B1F /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		31A19EF51AAA1BDB00EF2B32 /* ZombieConga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieConga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A19EF91AAA1BDB00EF2B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A19EFA1AAA1BDB00EF2B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31A19EFC1AAA1BDB00EF2B32 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		31A19EFE1AAA1BDB00EF2B32 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		31A19F001AAA1BDB00EF2B32 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		31A19F031AAA1BDB00EF2B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +51,7 @@
 		31A19F0E1AAA1BDB00EF2B32 /* ZombieCongaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZombieCongaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A19F131AAA1BDB00EF2B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A19F141AAA1BDB00EF2B32 /* ZombieCongaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombieCongaTests.swift; sourceTree = "<group>"; };
+		31D6D6CC1AAF011600B5488E /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		314F42AF1AAADCE900958B1F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				314F42B01AAADCE900958B1F /* background1.png */,
+				314F42B11AAADCE900958B1F /* background2.png */,
+				314F42B21AAADCE900958B1F /* MainMenu.png */,
+				314F42B31AAADCE900958B1F /* YouLose.png */,
+				314F42B41AAADCE900958B1F /* YouWin.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		31A19EEC1AAA1BDB00EF2B32 = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				31A19EFA1AAA1BDB00EF2B32 /* AppDelegate.swift */,
-				31A19EFC1AAA1BDB00EF2B32 /* GameScene.sks */,
 				31A19EFE1AAA1BDB00EF2B32 /* GameScene.swift */,
 				31A19F001AAA1BDB00EF2B32 /* GameViewController.swift */,
+				31D6D6CC1AAF011600B5488E /* MyUtils.swift */,
 				31A19F021AAA1BDB00EF2B32 /* Main.storyboard */,
+				314F42AF1AAADCE900958B1F /* Images */,
+				314F42B51AAADCE900958B1F /* sprites.atlas */,
 				31A19F051AAA1BDB00EF2B32 /* Images.xcassets */,
 				31A19F071AAA1BDB00EF2B32 /* LaunchScreen.xib */,
 				31A19EF81AAA1BDB00EF2B32 /* Supporting Files */,
@@ -198,10 +224,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314F42BA1AAADCE900958B1F /* YouWin.png in Resources */,
+				314F42BB1AAADCE900958B1F /* sprites.atlas in Resources */,
 				31A19F091AAA1BDB00EF2B32 /* LaunchScreen.xib in Resources */,
+				314F42B81AAADCE900958B1F /* MainMenu.png in Resources */,
+				314F42B91AAADCE900958B1F /* YouLose.png in Resources */,
 				31A19F061AAA1BDB00EF2B32 /* Images.xcassets in Resources */,
-				31A19EFD1AAA1BDB00EF2B32 /* GameScene.sks in Resources */,
+				314F42B71AAADCE900958B1F /* background2.png in Resources */,
 				31A19F041AAA1BDB00EF2B32 /* Main.storyboard in Resources */,
+				314F42B61AAADCE900958B1F /* background1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +253,7 @@
 				31A19EFF1AAA1BDB00EF2B32 /* GameScene.swift in Sources */,
 				31A19F011AAA1BDB00EF2B32 /* GameViewController.swift in Sources */,
 				31A19EFB1AAA1BDB00EF2B32 /* AppDelegate.swift in Sources */,
+				31D6D6CD1AAF011600B5488E /* MyUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +447,7 @@
 				31A19F1A1AAA1BDB00EF2B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31A19F1B1AAA1BDB00EF2B32 /* Build configuration list for PBXNativeTarget "ZombieCongaTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +456,7 @@
 				31A19F1D1AAA1BDB00EF2B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
